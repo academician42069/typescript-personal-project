@@ -1,0 +1,62 @@
+
+yarn run v1.16.0
+$ npm run lint && tsc && node .
+npm WARN lifecycle The node binary used for scripts is /tmp/yarn--1561483958473-0.16628995844326488/node but npm is using /usr/bin/node itself. Use the `--scripts-prepend-node-path` option to include the path for the node binary npm was executed with.
+
+> typescript@1.0.0 lint /home/pseudonymous-kiddy/hacker_stuff/IT_academy/typescript/personal-project/typescript-personal-project
+> tslint -c tslint.json 'source/**/*.ts'
+
+
+ERROR: source/main.ts:2:5 - Named imports must be alphabetized.
+
+ERROR: source/school/subjectsModel.ts:1:18 - interface name must start with a capitalized I
+ERROR: source/school/subjectsModel.ts:14:1 - trailing whitespace
+ERROR: source/school/subjectsModel.ts:20:48 - ' should be "
+ERROR: source/school/subjectsModel.ts:25:2 - file should end with a newline
+
+ERROR: source/school/teachersModel.ts:1:18 - interface name must start with a capitalized I
+ERROR: source/school/teachersModel.ts:2:43 - Missing semicolon
+ERROR: source/school/teachersModel.ts:5:6 - Use an interface instead of a type literal.
+ERROR: source/school/teachersModel.ts:7:21 - Missing trailing comma
+ERROR: source/school/teachersModel.ts:8:2 - Missing semicolon
+ERROR: source/school/teachersModel.ts:10:6 - Use an interface instead of a type literal.
+ERROR: source/school/teachersModel.ts:12:21 - Missing trailing comma
+ERROR: source/school/teachersModel.ts:13:2 - Missing semicolon
+ERROR: source/school/teachersModel.ts:15:6 - Use an interface instead of a type literal.
+ERROR: source/school/teachersModel.ts:16:20 - Missing trailing comma
+ERROR: source/school/teachersModel.ts:17:2 - Missing semicolon
+ERROR: source/school/teachersModel.ts:19:18 - interface name must start with a capitalized I
+ERROR: source/school/teachersModel.ts:19:18 - Class name must be in pascal case
+ERROR: source/school/teachersModel.ts:22:21 - Missing trailing comma
+ERROR: source/school/teachersModel.ts:23:6 - Properties should be separated by semicolons
+ERROR: source/school/teachersModel.ts:24:18 - Properties should be separated by semicolons
+ERROR: source/school/teachersModel.ts:25:24 - Properties should be separated by semicolons
+ERROR: source/school/teachersModel.ts:26:20 - Properties should be separated by semicolons
+ERROR: source/school/teachersModel.ts:27:20 - Properties should be separated by semicolons
+ERROR: source/school/teachersModel.ts:28:16 - Properties should be separated by semicolons
+ERROR: source/school/teachersModel.ts:29:24 - Properties should be separated by semicolons
+ERROR: source/school/teachersModel.ts:30:25 - Properties should be separated by semicolons
+ERROR: source/school/teachersModel.ts:36:5 - The class property 'teacherMap' must be marked either 'private', 'public', or 'protected'
+ERROR: source/school/teachersModel.ts:42:11 - The class method 'add' must be marked either 'private', 'public', or 'protected'
+ERROR: source/school/teachersModel.ts:49:11 - The class method 'read' must be marked either 'private', 'public', or 'protected'
+ERROR: source/school/teachersModel.ts:50:13 - Identifier 'thisTeacher' is never reassigned; use 'const' instead of 'let'.
+ERROR: source/school/teachersModel.ts:51:39 - missing whitespace
+ERROR: source/school/teachersModel.ts:54:9 - misplaced 'else'
+ERROR: source/school/teachersModel.ts:55:26 - ' should be "
+ERROR: source/school/teachersModel.ts:55:62 - Missing semicolon
+ERROR: source/school/teachersModel.ts:59:11 - The class method 'update' must be marked either 'private', 'public', or 'protected'
+ERROR: source/school/teachersModel.ts:59:89 - missing whitespace
+ERROR: source/school/teachersModel.ts:63:5 - The class method 'remove' must be marked either 'private', 'public', or 'protected'
+
+npm ERR! code ELIFECYCLE
+npm ERR! errno 2
+npm ERR! typescript@1.0.0 lint: `tslint -c tslint.json 'source/**/*.ts'`
+npm ERR! Exit status 2
+npm ERR! 
+npm ERR! Failed at the typescript@1.0.0 lint script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/pseudonymous-kiddy/.npm/_logs/2019-06-25T17_32_39_735Z-debug.log
+error Command failed with exit code 2.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
